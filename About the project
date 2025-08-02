@@ -1,0 +1,14 @@
+This project presents the design, simulation, and analysis of a three-phase voltage source
+inverter using the Typhoon HIL real-time simulation platform. The objective was to
+convert a DC input into a balanced three-phase AC output for industrial and grid-based
+applications. The inverter uses six IGBT switches in a three-leg bridge configuration,
+driven by Sinusoidal Pulse Width Modulation (SPWM). An LCL filter was incorporated
+to reduce switching harmonics and improve output waveform quality.
+The circuit was developed entirely in Typhoon HIL Control Center, allowing real-time
+simulation and interaction without physical hardware. Measurements confirmed balanced
+output waveforms, with a line-to-line voltage of 110V and phase current of 5A under an
+R-L load. The system maintained low total harmonic distortion (THD < 5%) and good
+dynamic stability.
+This simulation-based approach enables safe, flexible, and efficient testing of inverter
+systems, providing a strong foundation for future expansion into motor drives, advanced
+control strategies, and hardware implementation.
